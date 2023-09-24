@@ -119,6 +119,25 @@
     transition: ease 0.5s;
 }
 
+.sosial {
+    margin-top: 4vh;
+    margin-left: 2vw;
+}
+
+.sosial a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.sosial a svg {
+    color: white !important;
+}
+
+.sosial a:hover svg {
+    transform: translateY(-10px);
+    transition: ease 0.5s;
+}
+
 
 /* responsive  */
 
@@ -224,7 +243,8 @@
         background-position-x: right;
     }
     .hero .row {
-        margin-top: 26vh;
+        margin-top: 20vh;
+        padding: 0 14px;
     }
     .hero .row .col-12 .trending {
         font-size: 11px;
@@ -236,7 +256,7 @@
     .hero .row .col-12 h1 {
         margin-top: -12px;
         margin-bottom: 27px;
-        font-size: 46px;
+        font-size: 43px;
     }
     .hero .row .col-12 p {
         color: #ddd;
