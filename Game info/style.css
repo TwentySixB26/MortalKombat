@@ -29,7 +29,7 @@ body {
 
 .navbar #navbarSupportedContent ul li {
     margin-right: 18px;
-    font-size: 18px;
+    font-size: 16.6px;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -94,7 +94,7 @@ section.sinopsis .sinopsisInfo p.sinopsisIsi {
 }
 
 section.sinopsis .border01 {
-    margin-top: 70px;
+    margin-top: -30vw;
     transform: rotate(180deg) scale(0.5);
 }
 
@@ -103,7 +103,7 @@ section.sinopsis .border01 {
 
 
 /* section.story img {
-    margin-top: 450px;
+    margin-top: -450px;
     width: 100vw;
     position: relative;
     z-index: 99;
@@ -163,7 +163,14 @@ section.sinopsis .border01 {
     /* sinopsis  */
     section .sinopsisInfo {
         padding: 0 25px;
-        margin-top: -65vh;
+        margin-top: -60vh;
+    }
+    section.sinopsis .sinopsisIsi {
+        font-size: 14px;
+    }
+    section.sinopsis .border01 {
+        margin-top: 30px;
+        transform: rotate(180deg) scale(0.8);
     }
     /* story  */
     section.story img {
