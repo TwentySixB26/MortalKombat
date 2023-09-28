@@ -178,7 +178,7 @@ section.sinopsis .border01 {
     }
     section.sinopsis .border01 {
         margin-top: -10vw;
-        transform: rotate(180deg) scale(0.5);
+        transform: rotate(180deg) scale(0.8);
     }
     /* story  */
     section.story img {
