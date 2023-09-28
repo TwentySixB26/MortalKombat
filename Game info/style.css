@@ -122,7 +122,11 @@ section.sinopsis .border01 {
     }
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .navbar #navbarSupportedContent ul li {
+        font-size: 16px;
+    }
+}
 
 @media (max-width: 576px) {
     /* navbar */
@@ -145,11 +149,13 @@ section.sinopsis .border01 {
     /* sinopsis  */
     section.sinopsis div {
         padding: 0 15px;
+        margin-top: 22vh;
     }
     section.sinopsis div .sinopsisIsi {
         font-size: 14px;
     }
     section.sinopsis .border01 {
         margin-top: 30px;
+        transform: rotate(180deg) scale(0.8);
     }
 }
