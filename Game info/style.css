@@ -151,6 +151,9 @@ section.sinopsis .border01 {
 }
 
 @media (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
     /* navbar */
     .navbar .navbar-brand img {
         width: 8vw;
@@ -177,7 +180,7 @@ section.sinopsis .border01 {
         font-size: 14px;
     }
     section.sinopsis .border01 {
-        margin-top: -5vw;
+        margin-top: -24px;
         transform: rotate(180deg) scale(0.8);
     }
     /* story  */
