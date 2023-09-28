@@ -77,7 +77,7 @@ section.sinopsis .sinopsisbg {
 section .sinopsisInfo {
     position: absolute;
     z-index: 999;
-    margin-top: -75vh;
+    margin-top: -400px;
     text-align: center;
     padding: 0 100px;
 }
@@ -95,20 +95,18 @@ section.sinopsis .sinopsisInfo p.sinopsisIsi {
 }
 
 section.sinopsis .border01 {
-    margin-top: -30vw;
+    margin-top: -300px;
     transform: rotate(180deg) scale(0.5);
 }
 
 
 /* Story  */
 
-
-/* section.story img {
-    margin-top: -450px;
+section.story img {
     width: 100vw;
     position: relative;
     z-index: 99;
-} */
+}
 
 
 /* responsive  */
@@ -130,6 +128,23 @@ section.sinopsis .border01 {
     .navbar #navbarSupportedContent {
         margin-right: 0;
     }
+    /* sinopsis  */
+    section.sinopsis .sinopsisInfo .HeadMK {
+        font-size: 50px;
+    }
+    section .sinopsisInfo {
+        padding: 0 17px;
+        margin-top: -400px;
+    }
+    section.sinopsis .border01 {
+        margin-top: -280px;
+        transform: rotate(180deg) scale(0.8);
+    }
+    /* story  */
+    section.story img {
+        margin-top: 500px;
+        width: 100vw;
+    }
 }
 
 @media (max-width: 768px) {
@@ -141,11 +156,11 @@ section.sinopsis .border01 {
         font-size: 50px;
     }
     section .sinopsisInfo {
-        padding: 0 20px;
-        margin-top: -55vh;
+        padding: 0 10px;
+        margin-top: -400px;
     }
     section.sinopsis .border01 {
-        margin-top: -10vw;
+        margin-top: -230px;
         transform: rotate(180deg) scale(0.8);
     }
     /* story  */
@@ -160,7 +175,7 @@ section.sinopsis .border01 {
 
 @media (max-width: 650px) {
     section.sinopsis .border01 {
-        margin-top: 5vw;
+        margin-top: -200px;
         transform: rotate(180deg) scale(0.8);
     }
 }
@@ -189,18 +204,18 @@ section.sinopsis .border01 {
     /* sinopsis  */
     section .sinopsisInfo {
         padding: 0 13px;
-        margin-top: -55vh;
+        margin-top: -420px;
     }
     section.sinopsis .sinopsisIsi {
         font-size: 14px;
     }
     section.sinopsis .border01 {
-        margin-top: -14px;
+        margin-top: -17px;
         transform: rotate(180deg) scale(0.8);
     }
     /* story  */
     section.story img {
-        margin-top: 600px;
+        margin-top: 40px;
         width: 100vw;
     }
 }
