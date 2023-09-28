@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     overflow-x: hidden;
 }
 
@@ -66,16 +66,17 @@ body {
 
 /* sinopsis  */
 
-section.sinopsisIsi img {
+section.sinopsis .sinopsisbg {
     width: 100vw;
-    height: 100vh;
-    position: absolute;
-    z-index: -1;
+    height: 650px;
+    margin-top: -130px;
+    /* position: absolute; */
+    /* z-index: -1; */
 }
 
 section .sinopsisInfo {
     position: absolute;
-    z-index: 99;
+    z-index: 999;
     margin-top: -75vh;
     text-align: center;
     padding: 0 100px;
@@ -150,6 +151,16 @@ section.sinopsis .border01 {
     }
 }
 
+
+/* optional  */
+
+@media (max-width: 650px) {
+    section.sinopsis .border01 {
+        margin-top: 5vw;
+        transform: rotate(180deg) scale(0.8);
+    }
+}
+
 @media (max-width: 576px) {
     body {
         overflow-x: hidden;
@@ -180,7 +191,7 @@ section.sinopsis .border01 {
         font-size: 14px;
     }
     section.sinopsis .border01 {
-        margin-top: -24px;
+        margin-top: -18px;
         transform: rotate(180deg) scale(0.8);
     }
     /* story  */
