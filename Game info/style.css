@@ -101,6 +101,16 @@ section.sinopsis .border01 {
 }
 
 
+/* Story  */
+
+section.story img {
+    margin-top: 450px;
+    width: 100vw;
+    position: relative;
+    z-index: 99;
+}
+
+
 /* responsive  */
 
 @media (max-width: 992px) {
@@ -125,6 +135,11 @@ section.sinopsis .border01 {
 @media (max-width: 768px) {
     .navbar #navbarSupportedContent ul li {
         font-size: 16px;
+    }
+    /* story  */
+    section.story img {
+        margin-top: 500px;
+        width: 100vw;
     }
 }
 
@@ -157,5 +172,10 @@ section.sinopsis .border01 {
     section.sinopsis .border01 {
         margin-top: 30px;
         transform: rotate(180deg) scale(0.8);
+    }
+    /* story  */
+    section.story img {
+        margin-top: 600px;
+        width: 100vw;
     }
 }
