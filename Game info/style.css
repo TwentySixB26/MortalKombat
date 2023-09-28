@@ -66,24 +66,22 @@ body {
 
 /* sinopsis  */
 
-section.sinopsis {
-    background-image: url(../img/bg5.jpeg);
-    min-width: 100vw;
-    min-height: 600px;
+section.sinopsisIsi img {
+    width: 100vw;
+    height: 100vh;
     position: absolute;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center top;
-    background-position-x: center;
+    z-index: -1;
 }
 
-section.sinopsis div {
-    margin-top: 25vh;
+section .sinopsisInfo {
+    position: absolute;
+    z-index: 99;
+    margin-top: -75vh;
     text-align: center;
+    padding: 0 100px;
 }
 
-section.sinopsis div .HeadMK {
+section.sinopsis .sinopsisInfo .HeadMK {
     font-family: 'Skranji', cursive;
     color: #de9611;
     font-size: 55px;
@@ -91,7 +89,7 @@ section.sinopsis div .HeadMK {
     margin-bottom: 20px;
 }
 
-section.sinopsis div p.sinopsisIsi {
+section.sinopsis .sinopsisInfo p.sinopsisIsi {
     color: #666;
 }
 
@@ -103,12 +101,13 @@ section.sinopsis .border01 {
 
 /* Story  */
 
-section.story img {
+
+/* section.story img {
     margin-top: 450px;
     width: 100vw;
     position: relative;
     z-index: 99;
-}
+} */
 
 
 /* responsive  */
@@ -162,16 +161,9 @@ section.story img {
         height: 14px;
     }
     /* sinopsis  */
-    section.sinopsis div {
-        padding: 0 15px;
-        margin-top: 16vh;
-    }
-    section.sinopsis div .sinopsisIsi {
-        font-size: 14px;
-    }
-    section.sinopsis .border01 {
-        margin-top: 30px;
-        transform: rotate(180deg) scale(0.8);
+    section .sinopsisInfo {
+        padding: 0 25px;
+        margin-top: -65vh;
     }
     /* story  */
     section.story img {
