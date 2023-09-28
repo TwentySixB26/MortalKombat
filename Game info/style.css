@@ -140,6 +140,10 @@ section.sinopsis .border01 {
     section.sinopsis .sinopsisInfo .HeadMK {
         font-size: 50px;
     }
+    section .sinopsisInfo {
+        padding: 0 20px;
+        margin-top: -55vh;
+    }
     section.sinopsis .border01 {
         margin-top: -10vw;
         transform: rotate(180deg) scale(0.8);
@@ -184,14 +188,14 @@ section.sinopsis .border01 {
     }
     /* sinopsis  */
     section .sinopsisInfo {
-        padding: 0 25px;
-        margin-top: -60vh;
+        padding: 0 13px;
+        margin-top: -55vh;
     }
     section.sinopsis .sinopsisIsi {
         font-size: 14px;
     }
     section.sinopsis .border01 {
-        margin-top: -18px;
+        margin-top: -14px;
         transform: rotate(180deg) scale(0.8);
     }
     /* story  */
