@@ -142,7 +142,7 @@ section.story img {
     }
     /* story  */
     section.story img {
-        margin-top: 500px;
+        margin-top: -60px;
         width: 100vw;
     }
 }
@@ -165,7 +165,7 @@ section.story img {
     }
     /* story  */
     section.story img {
-        margin-top: 500px;
+        margin-top: 50px;
         width: 100vw;
     }
 }
@@ -203,14 +203,14 @@ section.story img {
     }
     /* sinopsis  */
     section .sinopsisInfo {
-        padding: 0 13px;
+        padding: 0 17px;
         margin-top: -420px;
     }
     section.sinopsis .sinopsisIsi {
         font-size: 14px;
     }
     section.sinopsis .border01 {
-        margin-top: -17px;
+        margin-top: 50px;
         transform: rotate(180deg) scale(0.8);
     }
     /* story  */
