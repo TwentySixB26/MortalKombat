@@ -112,7 +112,7 @@ section.story .storyIsi {
     text-align: center;
     position: relative;
     z-index: 999;
-    top: -100px;
+    top: -106px;
 }
 
 section.story .storyIsi .storyIsiImg {
@@ -130,6 +130,119 @@ section.story .storyIsi .row {
 }
 
 section.story .storyIsi .storyIsiP {
+    color: #aaa;
+}
+
+.border02 {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+
+/* customize  */
+
+section.custom img {
+    width: 100vw;
+    position: relative;
+    z-index: 99;
+    margin-top: 100px;
+}
+
+section.custom .customIsi {
+    text-align: center;
+    position: relative;
+    z-index: 999;
+    top: 35px;
+}
+
+section.custom .customIsi .customIsiImg {
+    transform: rotate(180deg) scale(0.3);
+    margin-top: -20px;
+}
+
+section.custom .customIsi .customIsiJudul {
+    font-family: 'Calistoga', cursive;
+    color: #de9611;
+    font-size: 32px;
+}
+
+section.custom .customIsi .row {
+    justify-content: center;
+}
+
+section.custom .customIsi .customIsiP {
+    color: #aaa;
+}
+
+
+/* Fight  */
+
+section.fight img {
+    width: 100vw;
+    position: relative;
+    z-index: 99;
+    margin-top: 170px;
+}
+
+section.fight .fightIsi {
+    text-align: center;
+    position: relative;
+    z-index: 999;
+    top: 35px;
+}
+
+section.fight .fightIsi .fightIsiImg {
+    transform: rotate(180deg) scale(0.3);
+    margin-top: -20px;
+}
+
+section.fight .fightIsi .fightIsiJudul {
+    font-family: 'Calistoga', cursive;
+    color: #de9611;
+    font-size: 32px;
+}
+
+section.fight .fightIsi .row {
+    justify-content: center;
+}
+
+section.fight .fightIsi .fightIsiP {
+    color: #aaa;
+}
+
+
+/* Friendship  */
+
+section.friendship img {
+    width: 100vw;
+    position: relative;
+    z-index: 99;
+    margin-top: 170px;
+}
+
+section.friendship .friendshipIsi {
+    text-align: center;
+    position: relative;
+    z-index: 999;
+    top: -100px;
+}
+
+section.friendship .friendshipIsi .friendshipIsiImg {
+    transform: rotate(180deg) scale(0.3);
+    margin-top: -20px;
+}
+
+section.friendship .friendshipIsi .friendshipIsiJudul {
+    font-family: 'Calistoga', cursive;
+    color: #de9611;
+    font-size: 32px;
+}
+
+section.friendship .friendshipIsi .row {
+    justify-content: center;
+}
+
+section.friendship .friendshipIsi .friendshipIsiP {
     color: #aaa;
 }
 
@@ -171,10 +284,43 @@ section.story .storyIsi .storyIsiP {
         width: 100vw;
     }
     section.story .storyIsi {
-        top: -20px;
+        top: -50px;
     }
     section.story .storyIsi .storyIsiImg {
         margin-top: 10px;
+    }
+    /* Custom  */
+    section.custom img {
+        margin-top: 120px;
+        width: 100vw;
+    }
+    section.custom .customIsi {
+        top: 40px;
+    }
+    section.custom .customIsi .customIsiImg {
+        margin-top: -10px;
+    }
+    /* fight mode   */
+    section.fight img {
+        margin-top: 180px;
+        width: 100vw;
+    }
+    section.fight .fightIsi {
+        top: 20px;
+    }
+    section.fight .fightIsi .fightIsiImg {
+        margin-top: -20px;
+    }
+    /* friendship  */
+    section.friendship img {
+        margin-top: 160px;
+        width: 100vw;
+    }
+    section.friendship .friendshipIsi {
+        top: -60px;
+    }
+    section.friendship .friendshipIsi .friendshipIsiImg {
+        margin-top: -20px;
     }
 }
 
@@ -196,11 +342,38 @@ section.story .storyIsi .storyIsiP {
     }
     /* story  */
     section.story img {
-        margin-top: 50px;
+        margin-top: 20px;
         width: 100vw;
     }
     section.story .storyIsi .storyIsiImg {
         margin-top: 20px;
+        transform: rotate(180deg) scale(0.5);
+    }
+    /* custom  */
+    section.custom img {
+        margin-top: 110px;
+        width: 100vw;
+    }
+    section.custom .customIsi .customIsiImg {
+        margin-top: -10px;
+        transform: rotate(180deg) scale(0.5);
+    }
+    /* fight mode  */
+    section.fight img {
+        margin-top: 130px;
+        width: 100vw;
+    }
+    section.fight .fightIsi .fightIsiImg {
+        margin-top: -10px;
+        transform: rotate(180deg) scale(0.5);
+    }
+    /* friendship  */
+    section.friendship img {
+        margin-top: 130px;
+        width: 100vw;
+    }
+    section.friendship .friendshipIsi .friendshipIsiImg {
+        margin-top: -10px;
         transform: rotate(180deg) scale(0.5);
     }
 }
@@ -250,11 +423,11 @@ section.story .storyIsi .storyIsiP {
     }
     /* story  */
     section.story img {
-        margin-top: 40px;
+        margin-top: 60px;
         width: 100vw;
     }
     section.story .storyIsi {
-        top: -10px;
+        top: -20px;
     }
     section.story .storyIsi .storyIsiJudul {
         font-family: 'Calistoga', cursive;
@@ -265,10 +438,79 @@ section.story .storyIsi .storyIsiP {
         font-size: 14px;
     }
     section.story .storyIsi .storyIsiImg {
-        margin-top: 15px;
+        margin-top: -19px;
         transform: rotate(180deg) scale(0.8);
     }
     section.story .storyIsi .container {
+        padding: 0 17px;
+    }
+    /* Custom  */
+    section.custom img {
+        margin-top: 100px;
+        width: 100vw;
+    }
+    section.custom .customIsi {
+        top: 30px;
+    }
+    section.custom .customIsi .customIsiJudul {
+        font-family: 'Calistoga', cursive;
+        color: #de9611;
+        font-size: 25px;
+    }
+    section.custom .customIsi .customIsiP {
+        font-size: 14px;
+    }
+    section.custom .customIsi .customIsiImg {
+        margin-top: -19px;
+        transform: rotate(180deg) scale(0.8);
+    }
+    section.custom .customIsi .container {
+        padding: 0 17px;
+    }
+    /* Fight  */
+    section.fight img {
+        margin-top: 120px;
+        width: 100vw;
+    }
+    section.fight .fightIsi {
+        top: 15px;
+    }
+    section.fight .fightIsi .fightIsiJudul {
+        font-family: 'Calistoga', cursive;
+        color: #de9611;
+        font-size: 25px;
+    }
+    section.fight .fightIsi .fightIsiP {
+        font-size: 14px;
+    }
+    section.fight .fightIsi .fightIsiImg {
+        margin-top: -19px;
+        transform: rotate(180deg) scale(0.8);
+    }
+    section.fight .fightIsi .container {
+        padding: 0 17px;
+    }
+    /* Friendship  */
+    section.friendship img {
+        margin-top: 100px;
+        width: 100vw;
+    }
+    section.friendship .friendshipIsi {
+        top: -30px;
+    }
+    section.friendship .friendshipIsi .friendshipIsiJudul {
+        font-family: 'Calistoga', cursive;
+        color: #de9611;
+        font-size: 25px;
+    }
+    section.friendship .friendshipIsi .friendshipIsiP {
+        font-size: 14px;
+    }
+    section.friendship .friendshipIsi .friendshipIsiImg {
+        margin-top: -19px;
+        transform: rotate(180deg) scale(0.8);
+    }
+    section.friendship .friendshipIsi .container {
         padding: 0 17px;
     }
 }
