@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="202" height="309" viewBox="0 0 202 309">
+<defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_2_copy" data-name="Rectangle 2 copy" width="202" height="309"/>
+  <rect class="cls-1" x="2" y="251" width="198" height="56"/>
+  <path id="N" class="cls-2" d="M86,260v41h8V285h2l4,16h6V260H98v17H96l-4-17H86Z"/>
+  <path id="A" class="cls-2" d="M149,301l6-41h11l6,41h-8l-2-8h-3l-2,8h-8Zm10-15,1-16h1l1,16h-3Z"/>
+  <path id="W" class="cls-2" d="M54,260l7,41h6l2-15h1l2,15h6l7-41H76l-2,19H73l-1-19H67l-1,19H65l-2-19H54Z"/>
+  <path class="cls-2" d="M126,301H109V260h8v33h9v8Z"/>
+  <path id="D_copy" data-name="D copy" class="cls-2" d="M173,260v41h15l6-6V266l-6-6H173Zm9,8h3v25h-3V268Z"/>
+  <path id="O" class="cls-2" d="M128,266v29l6,6h9l6-6V266l-6-6h-9Zm9,2h3v25h-3V268Z"/>
+  <path id="O-2" data-name="O" class="cls-2" d="M33,266v29l6,6h9l6-6V266l-6-6H39Zm9,2h3v25H42V268Z"/>
+  <path id="D" class="cls-2" d="M9,260v41H24l6-6V266l-6-6H9Zm9,8h3v25H18V268Z"/>
+  <path id="L" class="cls-3" d="M194,244H169V184h15v48h10v12Z"/>
+  <path id="A-2" data-name="A" class="cls-3" d="M135,244l7-60h19l7,60H156l-2-11h-5l-2,11H135Zm18-23h-3l1-22h1Z"/>
+  <path id="T" class="cls-3" d="M133,196v48H118V196h-7V184h29v12h-7Z"/>
+  <rect id="I" class="cls-1" x="42" y="184" width="15" height="60"/>
+  <path id="G" class="cls-3" d="M69,184l-8,8v44l8,8H84l8-8V213H76v11h2v8H75V196h3v11H92V193l-8-8-1-1H69Z"/>
+  <rect id="I-2" data-name="I" class="cls-1" x="95" y="184" width="15" height="60"/>
+  <path id="D-2" data-name="D" class="cls-3" d="M9,184H31l9,9v43l-8.25,8.25H9V184Zm13,11h3v37H22V195Z"/>
+  <path id="C" class="cls-3" d="M127,11h44l23.25,23V74H154V43h-8v98h8V104h40.25v47L169,173.25H131L104,151V34Z"/>
+  <path id="P" class="cls-3" d="M9,11H71L97,34V96L71,118H49v55.25H9V11ZM49,42h8V87H49V42Z"/>
+</svg>
