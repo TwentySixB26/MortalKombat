@@ -324,16 +324,17 @@ footer .batasanUmur a {
     margin-top: 10px;
 }
 
-.sosial a {
+.sosial svg {
     margin-right: 10px;
     text-decoration: none;
+    cursor: pointer;
 }
 
-.sosial a svg {
+.sosial svg {
     color: white !important;
 }
 
-.sosial a:hover svg {
+.sosial svg:hover {
     transform: translateY(-10px);
     transition: ease 0.5s;
 }
