@@ -663,7 +663,7 @@ footer .batasanUmur a {
         font-size: 9px;
         padding: 0 15px;
     }
-    .sosial {
-        margin-top: -100px;
+    .sosial svg {
+        margin-top: 15px;
     }
 }
