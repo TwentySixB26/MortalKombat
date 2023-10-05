@@ -211,6 +211,42 @@ section.fight .fightIsi .fightIsiP {
 }
 
 
+/* fatality  */
+
+section.fatality img {
+    width: 100vw;
+    position: relative;
+    z-index: 99;
+    margin-top: 220px;
+}
+
+section.fatality .fatalityIsi {
+    text-align: center;
+    position: relative;
+    z-index: 999;
+    top: 10px;
+}
+
+section.fatality .fatalityIsi .fatalityIsiImg {
+    transform: rotate(180deg) scale(0.3);
+    margin-top: -20px;
+}
+
+section.fatality .fatalityIsi .fatalityIsiJudul {
+    font-family: 'Calistoga', cursive;
+    color: #de9611;
+    font-size: 32px;
+}
+
+section.fatality .fatalityIsi .row {
+    justify-content: center;
+}
+
+section.fatality .fatalityIsi .fatalityIsiP {
+    color: #aaa;
+}
+
+
 /* Friendship  */
 
 section.friendship img {
@@ -244,6 +280,62 @@ section.friendship .friendshipIsi .row {
 
 section.friendship .friendshipIsi .friendshipIsiP {
     color: #aaa;
+}
+
+footer {
+    min-height: 300px;
+    width: 100vw;
+    background-color: #0d0d0d;
+    padding: 30px 10px 10px;
+}
+
+footer .myLogo {
+    width: 100px;
+    cursor: pointer;
+}
+
+footer .neterLogo {
+    width: 70px;
+    cursor: pointer;
+}
+
+footer .footerText p {
+    margin-top: 30px;
+    color: #aaa;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/* footer .batasanUmur {
+    margin-top: -10px;
+    text-align: center;
+}
+
+footer .batasanUmur svg {
+    margin-right: 20px;
+}
+
+footer .batasanUmur a {
+    text-decoration: none;
+} */
+
+.sosial {
+    margin-top: 10px;
+}
+
+.sosial a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.sosial a svg {
+    color: white !important;
+}
+
+.sosial a:hover svg {
+    transform: translateY(-10px);
+    transition: ease 0.5s;
 }
 
 
@@ -311,9 +403,20 @@ section.friendship .friendshipIsi .friendshipIsiP {
     section.fight .fightIsi .fightIsiImg {
         margin-top: -20px;
     }
+    /* fatality  */
+    section.fatality img {
+        margin-top: 180px;
+        width: 100vw;
+    }
+    section.fatality .fatalityIsi {
+        top: -60px;
+    }
+    section.fatality .fatalityIsi .fatalityIsiImg {
+        margin-top: -20px;
+    }
     /* friendship  */
     section.friendship img {
-        margin-top: 160px;
+        margin-top: 80px;
         width: 100vw;
     }
     section.friendship .friendshipIsi {
@@ -367,9 +470,18 @@ section.friendship .friendshipIsi .friendshipIsiP {
         margin-top: -10px;
         transform: rotate(180deg) scale(0.5);
     }
+    /* fatality */
+    section.fatality img {
+        margin-top: 170px;
+        width: 100vw;
+    }
+    section.fatality .fatalityIsi .fatalityIsiImg {
+        margin-top: -10px;
+        transform: rotate(180deg) scale(0.5);
+    }
     /* friendship  */
     section.friendship img {
-        margin-top: 130px;
+        margin-top: 90px;
         width: 100vw;
     }
     section.friendship .friendshipIsi .friendshipIsiImg {
@@ -490,9 +602,32 @@ section.friendship .friendshipIsi .friendshipIsiP {
     section.fight .fightIsi .container {
         padding: 0 17px;
     }
+    /* fatality  */
+    section.fatality img {
+        margin-top: 130px;
+        width: 100vw;
+    }
+    section.fatality .fatalityIsi {
+        top: -30px;
+    }
+    section.fatality .fatalityIsi .fatalityIsiJudul {
+        font-family: 'Calistoga', cursive;
+        color: #de9611;
+        font-size: 25px;
+    }
+    section.fatality .fatalityIsi .fatalityIsiP {
+        font-size: 14px;
+    }
+    section.fatality .fatalityIsi .fatalityIsiImg {
+        margin-top: -19px;
+        transform: rotate(180deg) scale(0.8);
+    }
+    section.fatality .fatalityIsi .container {
+        padding: 0 17px;
+    }
     /* Friendship  */
     section.friendship img {
-        margin-top: 100px;
+        margin-top: 80px;
         width: 100vw;
     }
     section.friendship .friendshipIsi {
@@ -512,5 +647,19 @@ section.friendship .friendshipIsi .friendshipIsiP {
     }
     section.friendship .friendshipIsi .container {
         padding: 0 17px;
+    }
+    /* footer  */
+    footer .logoAll div a img {
+        width: 55px;
+        height: 55px;
+    }
+    footer .logoAll div svg {
+        width: 50px;
+        height: 50px;
+    }
+    footer .footerText p {
+        margin-top: 20px;
+        font-size: 9px;
+        padding: 0 15px;
     }
 }
