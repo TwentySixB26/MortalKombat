@@ -320,7 +320,7 @@ section.page ul.pagination li a {
     }
     section.shop .mataUang {
         font-size: 10px;
-        transform: translateY(-3px);
+        transform: translateY(-5px);
     }
     section.shop .nominal {
         font-size: 15px;
