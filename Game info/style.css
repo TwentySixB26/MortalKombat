@@ -99,7 +99,8 @@ section.sinopsis .sinopsisInfo .HeadMK {
 section.sinopsis .sinopsisInfo .HeadMK.muncul {
     transform: translateX(0px);
     opacity: 1;
-    transition: 1.5s ease;
+    transition: 0.6s ease;
+    overflow-x: hidden;
 }
 
 section.sinopsis .sinopsisInfo p.sinopsisIsi {
@@ -111,7 +112,8 @@ section.sinopsis .sinopsisInfo p.sinopsisIsi {
 section.sinopsis .sinopsisInfo p.sinopsisIsi.muncul {
     transform: translateX(0px);
     opacity: 1;
-    transition: 1.5s ease;
+    transition: 0.6s ease;
+    overflow-x: hidden;
 }
 
 section.sinopsis .border01 {
