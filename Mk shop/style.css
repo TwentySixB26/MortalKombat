@@ -99,6 +99,85 @@ section.heading .border01 {
 } */
 
 
+/*=============== shop  ============= */
+
+section.shop {
+    padding: 5px 0px 30px;
+}
+
+section.shop .card {
+    margin-top: 46px;
+    overflow: hidden;
+}
+
+section.shop .card .card-body svg {
+    width: 13px;
+    height: 13px;
+}
+
+section.shop .card-title {
+    font-weight: 600;
+    font-size: 24px;
+    width: 200%;
+    overflow: hidden;
+}
+
+section.shop .mataUang {
+    font-weight: 600;
+    font-size: 14px;
+    /* margin-top: -6px; */
+    transform: translateY(-5px);
+}
+
+section.shop .nominal {
+    font-size: 20px;
+}
+
+section.shop .btn {
+    font-size: 12px;
+}
+
+section.shop .rating {
+    position: relative;
+    top: 2px;
+    left: 4px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+section.shop .r1 {
+    position: relative;
+    top: 2px;
+    left: 4px;
+    font-size: 15px;
+    margin-right: 83px;
+}
+
+section.shop .r1 .r2 {
+    opacity: 0.5;
+    margin-right: 5px;
+}
+
+section.shop .card .modalTombol {
+    cursor: pointer;
+}
+
+
+/*============ page ============== */
+
+section.page .pagination {
+    padding: 20px 0;
+}
+
+section.page ul.pagination li a {
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+
 /*================= responsive ================= */
 
 @media (max-width: 992px) {
@@ -125,6 +204,36 @@ section.heading .border01 {
     section.heading .border01 {
         transform: rotate(180deg) scale(0.5);
     }
+    /* shop  */
+    section.shop .card-title {
+        font-size: 23px;
+    }
+    section.shop .mataUang {
+        font-size: 13px;
+    }
+    section.shop .nominal {
+        font-size: 19px;
+    }
+    section.shop .btn {
+        font-size: 11px;
+    }
+    section.shop .rating {
+        font-size: 13px;
+        margin-right: 9px;
+    }
+    section.shop .card .card-body svg {
+        width: 12px;
+        height: 12px;
+    }
+    section.shop .r1 {
+        left: 4px;
+        font-size: 13px;
+        margin-right: 50px;
+    }
+    section.shop .r1 .r2 {
+        opacity: 0.5;
+        margin-right: 5px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -137,6 +246,36 @@ section.heading .border01 {
     }
     section.heading .border01 {
         transform: rotate(180deg) scale(0.8);
+    }
+    /* shop  */
+    section.shop .card-title {
+        font-size: 22px;
+    }
+    section.shop .mataUang {
+        font-size: 12px;
+    }
+    section.shop .nominal {
+        font-size: 18px;
+    }
+    section.shop .btn {
+        font-size: 10px;
+    }
+    section.shop .rating {
+        font-size: 12px;
+        margin-right: 9px;
+    }
+    section.shop .card .card-body svg {
+        width: 11px;
+        height: 11px;
+    }
+    section.shop .r1 {
+        left: 4px;
+        font-size: 12px;
+        margin-right: 50px;
+    }
+    section.shop .r1 .r2 {
+        opacity: 0.5;
+        margin-right: 5px;
     }
 }
 
@@ -167,5 +306,49 @@ section.heading .border01 {
     }
     section.heading .border01 {
         transform: rotate(180deg) scale(0.8);
+    }
+    /* shop  */
+    section.shop {
+        padding: 5px 10px 30px;
+    }
+    section.shop .card {
+        margin-top: 10px;
+        margin-bottom: 35px;
+    }
+    section.shop .card-title {
+        font-size: 17px;
+    }
+    section.shop .mataUang {
+        font-size: 8px;
+        transform: translateY(-3px);
+    }
+    section.shop .nominal {
+        font-size: 13px;
+    }
+    section.shop .btn {
+        font-size: 7px;
+    }
+    section.shop .rating {
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    section.shop .card .card-body svg {
+        width: 8px;
+        height: 8px;
+        transform: translateY(2px);
+    }
+    section.shop .r1 {
+        left: 3px;
+        font-size: 10px;
+        margin-right: 100%;
+    }
+    section.shop .r1 .r2 {
+        opacity: 0.5;
+        margin-right: 1px;
+    }
+    /* page  */
+    section.page .pagination {
+        margin-top: -30px;
+        padding: 0px 0px 10px;
     }
 }
