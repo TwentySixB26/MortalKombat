@@ -316,30 +316,30 @@ section.page ul.pagination li a {
         margin-bottom: 35px;
     }
     section.shop .card-title {
-        font-size: 19px;
+        font-size: 21px;
     }
     section.shop .mataUang {
-        font-size: 10px;
+        font-size: 12px;
         transform: translateY(-3px);
     }
     section.shop .nominal {
-        font-size: 15px;
+        font-size: 17px;
     }
     section.shop .btn {
-        font-size: 9px;
+        font-size: 11px;
     }
     section.shop .rating {
-        font-size: 12px;
+        font-size: 14px;
         margin-right: 5px;
     }
     section.shop .card .card-body svg {
-        width: 10px;
-        height: 10px;
-        transform: translateY(1px);
+        width: 12px;
+        height: 12px;
+        transform: translateY(0px);
     }
     section.shop .r1 {
         left: 3px;
-        font-size: 12px;
+        font-size: 14px;
         margin-right: 100%;
     }
     section.shop .r1 .r2 {
