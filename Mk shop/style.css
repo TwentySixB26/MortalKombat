@@ -178,6 +178,66 @@ section.page ul.pagination li a {
 }
 
 
+/* footer  */
+
+footer {
+    min-height: 300px;
+    width: 100vw;
+    background-color: #0d0d0d;
+    padding: 30px 10px 10px;
+}
+
+footer .myLogo {
+    width: 100px;
+    cursor: pointer;
+}
+
+footer .neterLogo {
+    width: 70px;
+    cursor: pointer;
+}
+
+footer .footerText p {
+    margin-top: 30px;
+    color: #aaa;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/* footer .batasanUmur {
+    margin-top: -10px;
+    text-align: center;
+}
+
+footer .batasanUmur svg {
+    margin-right: 20px;
+}
+
+footer .batasanUmur a {
+    text-decoration: none;
+} */
+
+.sosial {
+    margin-top: 10px;
+}
+
+.sosial svg {
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sosial svg {
+    color: white !important;
+}
+
+.sosial svg:hover {
+    transform: translateY(-10px);
+    transition: ease 0.5s;
+}
+
+
 /*================= responsive ================= */
 
 @media (max-width: 992px) {
@@ -335,7 +395,7 @@ section.page ul.pagination li a {
     section.shop .card .card-body svg {
         width: 10px;
         height: 10px;
-        transform: translateY(0px);
+        transform: translateY(1px);
     }
     section.shop .r1 {
         left: 3px;
@@ -350,5 +410,22 @@ section.page ul.pagination li a {
     section.page .pagination {
         margin-top: -30px;
         padding: 0px 0px 10px;
+    }
+    /* footer  */
+    footer .logoAll div a img {
+        width: 55px;
+        height: 55px;
+    }
+    footer .logoAll div svg {
+        width: 50px;
+        height: 50px;
+    }
+    footer .footerText p {
+        margin-top: 20px;
+        font-size: 9px;
+        padding: 0 15px;
+    }
+    .sosial svg {
+        margin-top: 15px;
     }
 }
