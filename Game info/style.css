@@ -66,6 +66,10 @@ body {
 
 /* sinopsis  */
 
+section.sinopsis {
+    overflow-x: hidden;
+}
+
 section.sinopsis .sinopsisbg {
     width: 100vw;
     height: 650px;
