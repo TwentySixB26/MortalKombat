@@ -66,10 +66,6 @@ body {
 
 /* sinopsis  */
 
-section.sinopsis {
-    overflow-x: hidden;
-}
-
 section.sinopsis .sinopsisbg {
     width: 100vw;
     height: 650px;
@@ -99,8 +95,7 @@ section.sinopsis .sinopsisInfo .HeadMK {
 section.sinopsis .sinopsisInfo .HeadMK.muncul {
     transform: translateX(0px);
     opacity: 1;
-    transition: 0.6s ease;
-    overflow-x: hidden;
+    transition: 1.5s ease;
 }
 
 section.sinopsis .sinopsisInfo p.sinopsisIsi {
@@ -112,8 +107,7 @@ section.sinopsis .sinopsisInfo p.sinopsisIsi {
 section.sinopsis .sinopsisInfo p.sinopsisIsi.muncul {
     transform: translateX(0px);
     opacity: 1;
-    transition: 0.6s ease;
-    overflow-x: hidden;
+    transition: 1.5s ease;
 }
 
 section.sinopsis .border01 {
@@ -527,6 +521,9 @@ footer .batasanUmur a {
 }
 
 @media (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
     /* navbar */
     .navbar .navbar-brand img {
         width: 8vw;
@@ -545,9 +542,6 @@ footer .batasanUmur a {
         height: 14px;
     }
     /* sinopsis  */
-    section.sinopsis {
-        overflow-x: hidden;
-    }
     section .sinopsisInfo {
         padding: 0 17px;
         margin-top: -420px;
@@ -673,14 +667,6 @@ footer .batasanUmur a {
     }
     section.friendship .friendshipIsi .container {
         padding: 0 17px;
-    }
-    section.friendship,
-    section.story,
-    section.fight,
-    section.sinopsis,
-    section.fatality,
-    section.custom {
-        overflow-x: hidden;
     }
     /* footer  */
     footer .logoAll div a img {
