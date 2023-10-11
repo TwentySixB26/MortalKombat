@@ -47,7 +47,6 @@ body {
 }
 
 .navbar #navbarSupportedContent ul li a:hover {
-    border-bottom: 1px solid #fda500;
     color: #fda500;
     transition: ease 0.2s;
 }
