@@ -87,10 +87,27 @@ section.sinopsis .sinopsisInfo .HeadMK {
     font-size: 55px;
     font-family: 'Permanent Marker', cursive;
     margin-bottom: 20px;
+    opacity: 0;
+    transform: translateX(-500px);
+}
+
+section.sinopsis .sinopsisInfo .HeadMK.muncul {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: ease 1.3s;
 }
 
 section.sinopsis .sinopsisInfo p.sinopsisIsi {
     color: #666;
+    opacity: 0;
+    transform: translateX(600px);
+}
+
+section.sinopsis .sinopsisInfo p.sinopsisIsi.muncul {
+    color: #666;
+    opacity: 1;
+    transform: translateX(0px);
+    transition: ease 1.3s;
 }
 
 section.sinopsis .border01 {
