@@ -1,4 +1,4 @@
-alert('website ini just for fun,kalo masih ada bug mohon dimaklumi karena sedang dalam pengembangan \n ~IG : Baaa26_')
+alert('hiiii,website ini just for fun \n ~IG : Baaa26_')
 
 let hero = document.querySelector('.hero .row')
 let body = document.body
