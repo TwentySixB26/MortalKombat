@@ -67,7 +67,8 @@
     
     section.turnamentIsi {
         text-align: center;
-        margin-top: 30px;
+        margin-top: 40px;
+        padding-bottom: 50px;
     }
     
     section.turnamentIsi .isiTurnamentH1 {
@@ -151,6 +152,9 @@
     }
     
     @media (max-width: 768px) {
+        body {
+            background-position: 1400px;
+        }
         .navbar #navbarSupportedContent ul li {
             font-size: 16px;
         }
@@ -199,6 +203,10 @@
             height: 14px;
         }
         /* turnament  */
+        section.turnamentIsi {
+            padding-bottom: 17px;
+            margin-top: 30px;
+        }
         section.turnamentIsi .isiTurnamentH1 {
             font-size: 40px;
         }
@@ -214,10 +222,10 @@
         }
         section.turnamentIsi .card .imgH2 {
             text-shadow: 3px 3px 6px black;
-            font-size: 20px;
+            font-size: 22px;
         }
         section.turnamentIsi .card .imgP {
             text-shadow: 1px 1px 2px black, 1px 1px 2px black;
-            font-size: 7px;
+            font-size: 9px;
         }
     }
