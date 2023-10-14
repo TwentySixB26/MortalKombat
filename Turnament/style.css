@@ -4,17 +4,17 @@
     }
     
     body {
-        background-image: url(../img/bg-landingPace.jpeg);
+        background-image: url(../img/bg9.jpg);
         height: 100vh;
         overflow-x: hidden;
         width: 100vw;
         background-size: cover;
-        background-position: center center;
+        background-position: right center;
         overflow: hidden;
     }
     
     .navbar {
-        background-color: rgba(0, 0, 0, 1);
+        background-color: rgba(0, 0, 0, 0.9);
     }
     
     .navbar .navbar-brand {
@@ -68,7 +68,8 @@
     
     @media (max-width: 992px) {
         body {
-            background-position: bottom center;
+            background-position-x: center;
+            background-position-y: bottom;
         }
         /* navbar  */
         .navbar #navbarSupportedContent ul li a:hover {
@@ -98,7 +99,7 @@
         body {
             overflow-x: hidden;
             max-width: 100vw;
-            background-position: left;
+            background-position: center center;
         }
         /* navbar */
         .navbar .navbar-brand img {
