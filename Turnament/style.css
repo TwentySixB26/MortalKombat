@@ -4,12 +4,12 @@
     }
     
     body {
-        background-image: url(../img/bg9.jpg);
+        background-image: url(../img/bg-13.jpg);
         height: 100vh;
         overflow-x: hidden;
         width: 100vw;
         background-size: cover;
-        background-position: right center;
+        background-position: center center;
         overflow: hidden;
     }
     
@@ -64,6 +64,25 @@
         position: absolute;
         right: 0;
     }
+    /* turnament  */
+    
+    section.turnamentIsi {
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    section.turnamentIsi h1 {
+        color: #ffffff;
+        text-shadow: 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 60px;
+    }
+    
+    section.turnamentIsi p {
+        color: #cb8400;
+        margin-top: 10px;
+        text-shadow: 1px 1px 2px black, 1px 1px 2px black;
+    }
     /* responsive  */
     
     @media (max-width: 992px) {
@@ -100,6 +119,7 @@
             overflow-x: hidden;
             max-width: 100vw;
             background-position: center center;
+            background-position: 890px;
         }
         /* navbar */
         .navbar .navbar-brand img {
