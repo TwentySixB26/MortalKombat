@@ -121,25 +121,13 @@ section.turnamentIsi .card .imgP {
 }
 
 section.turnamentIsi .faseGrup {
-    transform: translateX(-200px);
-    opacity: 0;
-}
-
-section.turnamentIsi .faseGrup {
     transform: translateX(0px);
     opacity: 1;
-    transition: ease 1.5s;
-}
-
-section.turnamentIsi .knockOut {
-    transform: translateX(200px);
-    opacity: 0;
 }
 
 section.turnamentIsi .knockOut {
     transform: translateX(0px);
     opacity: 1;
-    transition: ease 1.5s;
 }
 
 section.turnamentIsi .card .card-img-overlay {
