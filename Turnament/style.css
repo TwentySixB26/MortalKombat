@@ -76,6 +76,14 @@
         text-shadow: 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black, 5px 5px 2px black;
         font-family: 'Permanent Marker', cursive;
         font-size: 60px;
+        transform: translateX(300px);
+        opacity: 0;
+    }
+    
+    section.turnamentIsi .isiTurnamentH1.muncul {
+        transform: translateX(0px);
+        opacity: 1;
+        transition: ease 1.5s;
     }
     
     section.turnamentIsi .isiTurnamentP {
@@ -83,6 +91,14 @@
         margin-top: 10px;
         text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black;
         font-size: 16px;
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    
+    section.turnamentIsi .isiTurnamentP.muncul {
+        transform: translateX(0px);
+        opacity: 1;
+        transition: ease 1.5s;
     }
     
     section.turnamentIsi .card {
@@ -100,6 +116,28 @@
         color: #b4b4b4;
         text-shadow: 1px 1px 2px black, 1px 1px 2px black;
         font-size: 13px;
+    }
+    
+    section.turnamentIsi .faseGrup {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    
+    section.turnamentIsi .faseGrup.muncul {
+        transform: translateX(0px);
+        opacity: 1;
+        transition: ease 1.5s;
+    }
+    
+    section.turnamentIsi .knockOut {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    
+    section.turnamentIsi .knockOut.muncul {
+        transform: translateX(0px);
+        opacity: 1;
+        transition: ease 1.5s;
     }
     
     section.turnamentIsi .card .card-img-overlay {
@@ -208,12 +246,12 @@
             margin-top: 30px;
         }
         section.turnamentIsi .isiTurnamentH1 {
-            font-size: 40px;
+            font-size: 44px;
         }
         section.turnamentIsi .isiTurnamentP {
             margin-top: 10px;
             text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black;
-            font-size: 13px;
+            font-size: 15px;
             padding: 0 10px;
             text-align: left;
         }
@@ -222,10 +260,10 @@
         }
         section.turnamentIsi .card .imgH2 {
             text-shadow: 3px 3px 6px black;
-            font-size: 22px;
+            font-size: 24px;
         }
         section.turnamentIsi .card .imgP {
             text-shadow: 1px 1px 2px black, 1px 1px 2px black;
-            font-size: 9px;
+            font-size: 11px;
         }
     }
