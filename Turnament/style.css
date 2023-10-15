@@ -82,7 +82,7 @@ section.turnamentIsi .isiTurnamentH1 {
     opacity: 0;
 }
 
-section.turnamentIsi .isiTurnamentH1.muncul {
+section.turnamentIsi .isiTurnamentH1 {
     transform: translateX(0px);
     opacity: 1;
     transition: ease 1.5s;
@@ -97,7 +97,7 @@ section.turnamentIsi .isiTurnamentP {
     opacity: 0;
 }
 
-section.turnamentIsi .isiTurnamentP.muncul {
+section.turnamentIsi .isiTurnamentP {
     transform: translateX(0px);
     opacity: 1;
     transition: ease 1.5s;
