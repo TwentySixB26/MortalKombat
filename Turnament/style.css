@@ -125,7 +125,7 @@ section.turnamentIsi .faseGrup {
     opacity: 0;
 }
 
-section.turnamentIsi .faseGrup.muncul {
+section.turnamentIsi .faseGrup {
     transform: translateX(0px);
     opacity: 1;
     transition: ease 1.5s;
@@ -136,7 +136,7 @@ section.turnamentIsi .knockOut {
     opacity: 0;
 }
 
-section.turnamentIsi .knockOut.muncul {
+section.turnamentIsi .knockOut {
     transform: translateX(0px);
     opacity: 1;
     transition: ease 1.5s;
@@ -225,6 +225,7 @@ section.turnamentIsi .card .card-img-overlay {
     body {
         overflow-x: hidden;
         background-position: center center;
+        background-position: 890px;
     }
     /* navbar */
     .navbar .navbar-brand img {
