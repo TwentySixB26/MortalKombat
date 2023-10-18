@@ -281,6 +281,10 @@ footer .batasanUmur a {
         text-shadow: 1px 1px 2px black, 1px 1px 2px black;
         font-size: 9px;
     }
+    /* footer  */
+    footer {
+        min-height: 30vh;
+    }
 }
 
 @media (max-width: 576px) {
@@ -333,6 +337,9 @@ footer .batasanUmur a {
         font-size: 11px;
     }
     /* footer  */
+    footer {
+        min-height: 30vh;
+    }
     footer .logoAll div a img {
         width: 55px;
         height: 55px;
