@@ -154,6 +154,7 @@ section.turnamentIsi .card .card-img-overlay {
 /* footer  */
 
 footer {
+    margin-top: 8vh;
     min-height: 300px;
     width: 100vw;
     background-color: #0d0d0d;
