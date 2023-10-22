@@ -16,6 +16,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../img/bg4.png);
+    background-position: center center;
     overflow-x: hidden;
 }
 
@@ -130,6 +131,17 @@ section.character .galeri li h6 {
 }
 
 
+/* =========== Voice ============  */
+
+section.voice .voiceText {
+    margin-top: 120px;
+    color: #fda500;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px black, 5px 5px 5px black, 5px 5px 5px black, 5px 5px 5px black, 5px 5px 5px black, 5px 5px 5px black;
+}
+
+
 /* responsive  */
 
 @media (max-width: 992px) {
@@ -177,7 +189,7 @@ section.character .galeri li h6 {
     }
     /* ==== judul ===== */
     section.judul .judulText1 {
-        font-size: 40px;
+        font-size: 45px;
     }
     section.character .galeri li h6 {
         font-size: 9px;
