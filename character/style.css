@@ -88,11 +88,11 @@ section.judul .judulText1 {
 
 section.character .galeri {
     width: 100%;
-    margin: 60px 0px;
+    margin: 60px 0px 30px;
     list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-gap: 8px;
+    grid-gap: 15px;
     text-transform: uppercase;
 }
 
@@ -134,11 +134,90 @@ section.character .galeri li h6 {
 /* =========== Voice ============  */
 
 section.voice .voiceText {
-    margin-top: 120px;
+    margin-top: 50px;
     color: #fda500;
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
     text-shadow: 5px 5px 5px black, 5px 5px 5px black, 5px 5px 5px black, 5px 5px 5px black, 5px 5px 5px black, 5px 5px 5px black;
+}
+
+section.voice .voiceHero {
+    margin-top: 30px;
+    list-style: none;
+    margin-bottom: 100px;
+}
+
+section.voice .voiceHero ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+section.voice .voiceHero ul li img {
+    background-color: #0f131a;
+    margin-right: 10px;
+    margin-left: 20px;
+    border: 1px solid #4f4f4f;
+    cursor: pointer;
+}
+
+
+/* footer  */
+
+footer {
+    min-height: 300px;
+    width: 100vw;
+    background-color: #0d0d0d;
+    padding: 30px 10px 10px;
+}
+
+footer .myLogo {
+    width: 100px;
+    cursor: pointer;
+}
+
+footer .neterLogo {
+    width: 70px;
+    cursor: pointer;
+}
+
+footer .footerText p {
+    margin-top: 30px;
+    color: #aaa;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/* footer .batasanUmur {
+    margin-top: -10px;
+    text-align: center;
+}
+
+footer .batasanUmur svg {
+    margin-right: 20px;
+}
+
+footer .batasanUmur a {
+    text-decoration: none;
+} */
+
+.sosial {
+    margin-top: 10px;
+}
+
+.sosial svg {
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sosial svg {
+    color: white !important;
+}
+
+.sosial svg:hover {
+    transform: translateY(-10px);
+    transition: ease 0.5s;
 }
 
 
@@ -160,6 +239,10 @@ section.voice .voiceText {
     }
     .navbar #navbarSupportedContent {
         margin-right: 0;
+    }
+    /* voice  */
+    section.voice .voiceHero ul li img {
+        margin-bottom: 30px;
     }
 }
 
@@ -196,5 +279,34 @@ section.voice .voiceText {
     }
     section.character .galeri {
         grid-gap: 11px;
+        margin: 60px 0px 50px 0px;
+    }
+    /* ======== voice ========= */
+    section.voice .voiceText {
+        font-size: 50px;
+    }
+    section.voice .voiceHero {
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    section.voice .voiceHero ul li img {
+        margin-bottom: 30px;
+    }
+    /*===== footer ====== */
+    footer .logoAll div a img {
+        width: 55px;
+        height: 55px;
+    }
+    footer .logoAll div svg {
+        width: 50px;
+        height: 50px;
+    }
+    footer .footerText p {
+        margin-top: 20px;
+        font-size: 9px;
+        padding: 0 15px;
+    }
+    .sosial svg {
+        margin-top: 15px;
     }
 }
